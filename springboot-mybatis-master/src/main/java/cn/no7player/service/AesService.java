@@ -5,5 +5,6 @@ package cn.no7player.service;
  */
 public interface AesService {
 
-    void doAes();
+    String doAes(String param);
+
 }
